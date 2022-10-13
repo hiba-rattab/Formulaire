@@ -100,7 +100,7 @@ else{
 var str="myobjectif"
 for(i=0;i<str.length;i++)
 {
-    if(33<str[i].charCodeAt<64)
+    if(33<=str[i].charCodeAt<=64)
     {
         let message="l'objectif ne doit pas contenir des caractères spéciaux";
         seterror(myobjectif,message);
